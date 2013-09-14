@@ -1,6 +1,6 @@
 ;; The first three lines of this file were inserted by DrRacket. They record metadata
 ;; about the language level of this file in a form that our tools can easily process.
-#reader(lib "htdp-beginner-reader.ss" "lang")((modname PS00) (read-case-sensitive #t) (teachpacks ((lib "image.rkt" "teachpack" "2htdp") (lib "universe.rkt" "teachpack" "2htdp"))) (htdp-settings #(#t constructor repeating-decimal #f #t none #f ((lib "image.rkt" "teachpack" "2htdp") (lib "universe.rkt" "teachpack" "2htdp")))))
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname Lab01) (read-case-sensitive #t) (teachpacks ((lib "image.rkt" "teachpack" "2htdp") (lib "universe.rkt" "teachpack" "2htdp"))) (htdp-settings #(#t constructor repeating-decimal #f #t none #f ((lib "image.rkt" "teachpack" "2htdp") (lib "universe.rkt" "teachpack" "2htdp")))))
 (require 2htdp/image)
 
 ;; EX1 - compute the number of seconds in a leap year = 366 days
@@ -186,52 +186,8 @@
 (rel-rec-sequence 2 3)
 (rel-rec-sequence 6 .5)
 ; rec-sequence-2
-; I don't understand these instructions
 
-;; EX20 - human shape
-;(define (make-human height weight)
-;  (define
-;  (empty-scene (* weight 2) (* height 1.5))
-;  (circle (height/5) "solid" "yellow")
-;  (rectangle (we
-; skipping this exercise for now
-
-;; EX21 - draw person
-; skipping this exercise for now
-
-;; EX22 - numbers 1 to 5
-(cons 1 (cons 2 (cons 3 (cons 4 (cons 5 empty)))))
-
-;; EX23 - 5 boolean list
-(cons true (cons false (cons true (cons false (cons true empty)))))
-
-;; EX24 - product list
-(define (product lst)
-  (cond
-    ([empty? lst] 1)
-    (else (* (first lst) (product (rest lst))))))
-(product empty)
-(product (list 0))
-(product (list 1 2 3))
-
-;; EX25
-; true-test : Boolean List-of-Booleans -> Boolean
-; GIVEN: a list of boolean values
-; RETURNS: boolean value expressing if all values in the list are true
-; Examples:
-; (true-test true)        => true
-; (true-test false true)  => false
-; (true-test true true)   => true
-(define (true-test lst)
-  (cond
-    ([empty? lst] true)
-    (else (true-test (rest lst)))))
-(true-test empty)
-(true-test false)
-(true-test true)
-(true-test false)
-(true-test (list true true false))
-(true-test (list true true false))
+;; EX20 - 
 
 
 
