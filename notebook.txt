@@ -1,0 +1,10 @@
+Date	 Who	 Start	 Stop	 Interruptions	   Question		TimeOnTask	Comments
+
+9/11	 AT	 17:00	 18:49 	 10+3		   EX1-EX9		96		Stuck on EX9, says "even?" is already defined
+9/11	 AT	 20:44	 21:44	 10		   EX10-EX18		50		Done. Also, just realized I never did contract & purpose statements, will finish later
+9/14	 AT	 13:45	 14:39	 5		   EX19-EX23		49		First commit, also spent time setting up Git
+===================committing to git: 9/14 14:43====================================
+9/14	AT	15:48	14:53  0		EX24		    5		   Moving on to reading...
+9/14	AT	16:04	16:58  10		EX25		    44		   Stuck on the last examples, posted a question on Piazza and moving onto other homework.
+===================committing to git: 9/14 16:59====================================
+9/14	AT	19:37	19:42  0		EX25		    5		   Got 25 figured out

@@ -225,11 +225,11 @@
 (define (true-test lst)
   (cond
     ([empty? lst] true)
-    (else (true-test (rest lst)))))
+    (else (true-test (rest lst))))) ; something needs to be added here
 (true-test empty)
-(true-test false)
-(true-test true)
-(true-test false)
+(true-test (cons false empty))
+(true-test (cons true empty))
+(true-test (cons false empty))
 (true-test (list true true false))
 (true-test (list true true false))
 
